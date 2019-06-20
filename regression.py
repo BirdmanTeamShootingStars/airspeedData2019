@@ -1,4 +1,4 @@
-from sklearn.linear_model import Ridge
+from sklearn.linear_model import LinearRegression
 import pandas as pd
 import numpy as np
 import argparse
@@ -16,7 +16,7 @@ for i in range(y.size):
 
 print("X shape: {}" .format(X.shape))
 print("y shape: {}" .format(y.shape))
-ridge = Ridge(alpha=0.0).fit(X, y)
-print("train score: {}" .format(ridge.score(X,y)))
-print("coef_: {}" .format(ridge.coef_))
-print("intercept_: {}" .format(ridge.intercept_))
+model = LinearRegression().fit(X, y)
+print("train score: {}" .format(model.score(X,y)))
+print("coef_: {}" .format(model.coef_))
+print("intercept_: {}" .format(model.intercept_))
