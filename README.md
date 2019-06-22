@@ -1,10 +1,5 @@
 ### ピトー管
 
-<img src="https://www.codecogs.com/eqnedit.php?latex=v^2&space;=&space;a\Delta&space;p&space;&plus;&space;b" target="_blank"><img src="https://latex.codecogs.com/gif.latex?v^2&space;=&space;a\Delta&space;p&space;&plus;&space;b" title="v^2 = a\Delta p + b" /></a>"   
-ただし　a = 09066    
-b = -173.27    
-R^2 = 0.9879  
-v = 風速(m/s)  
-Δp　= 圧力差(Pa)  
-温度　= 19.5℃  
-でした。
+## Data Format
+p,vの2つの属性に持つcsv形式にし、
+ファイル名を日付にすること
